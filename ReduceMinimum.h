@@ -14,7 +14,7 @@ public:
 
 
 protected:
-int binaryOperator(int x, int y) override;
+int binaryOperator(int first_number, int second_number) override;
 
 };
 

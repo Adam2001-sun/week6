@@ -6,7 +6,8 @@
 ReduceGCD:: ReduceGCD() = default;
 
 
-int ReduceGCD::binaryOperator(int x, int y) {
-    if (y==0) return x;
-    return binaryOperator(y,x%y);
+
+int ReduceGCD::binaryOperator(int first_number, int second_number) {
+    if (second_number ==0) return first_number;
+    return binaryOperator(second_number ,first_number%second_number );
 }

@@ -6,18 +6,18 @@
 
 MapGeneric::MapGeneric() = default;
 
-std::vector<int> MapGeneric::map(std::vector<int> input){
-return map(std::vector<int>(),input,0);
+std::vector<int> MapGeneric::map(std::vector<int> magicNumber){
+return map(std::vector<int>(),magicNumber,0);
 }
 
 
-std::vector<int> MapGeneric::map(std::vector<int> result, std::vector<int>input, int index){
-    if(index == (int)input.size()){
+std::vector<int> MapGeneric::map(std::vector<int> result, std::vector<int>magicNumber, int array_index){
+    if(array_index == (int)magicNumber.size()){
         return result;
     }
-    result.push_back(f(input[index]));
+    result.push_back(f(magicNumber[array_index]));
 
-    return map(result,input,index+1);
+    return map(result,magicNumber,array_index+1);
 
 }
 

@@ -15,11 +15,11 @@ public:
     ReduceGeneric();
    
 
-    int reduce(std::vector<int> input);
+    int reduce(std::vector<int> magicNumber);
 
 private:
-     int reduce(int result, std::vector<int> input, int index);
-      virtual int binaryOperator(int x, int y) = 0;
+     int reduce(int result, std::vector<int> magicNumber, int array_index);
+      virtual int binaryOperator(int first_number, int second_number) = 0;
 };
 
 

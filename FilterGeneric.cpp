@@ -7,17 +7,17 @@
 FilterGeneric::FilterGeneric() = default;
 
 
-std::vector<int> FilterGeneric::filter(std::vector<int> input) {
-    return filter(std::vector<int>(),input,0);
+std::vector<int> FilterGeneric::filter(std::vector<int> magicNumber) {
+    return filter(std::vector<int>(),magicNumber,0);
 }
 
-std::vector<int> FilterGeneric::filter(std::vector<int> result, std::vector<int> input, int index){
-   if (index == (int)input.size()){
+std::vector<int> FilterGeneric::filter(std::vector<int> result, std::vector<int> magicNumber, int array_index){
+   if (array_index == (int)magicNumber.size()){
        return result;
    }
 
-   if(g(input[index])){
-       result.push_back(input[index]);
+   if(g(magicNumber[array_index])){
+       result.push_back(magicNumber[array_index]);
    }
-   return filter(result,input,index+1);
+   return filter(result,magicNumber,array_index+1);
 }

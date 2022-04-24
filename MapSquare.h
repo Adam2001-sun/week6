@@ -13,7 +13,6 @@ class MapSquare : public MapGeneric {
 public:
     MapSquare();
    
-
 protected:
     int f(int x) override;
 };

@@ -10,15 +10,13 @@
 
 class MapGeneric {
 
-
-
 public:
 MapGeneric();
 
-    std::vector<int> map(std::vector<int> input);
+    std::vector<int> map(std::vector<int> magicNumber);
 
 private:
-    std::vector<int> map(std::vector<int> result, std::vector<int> input, int index);
+    std::vector<int> map(std::vector<int> result, std::vector<int> magicNumber, int array_index);
 
     virtual int f(int x) = 0;
 
