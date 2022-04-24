@@ -9,7 +9,7 @@
 class FilterOdd:public FilterGeneric {
 public:
     FilterOdd();
-    virtual ~FilterOdd();
+    
 
 protected:
 

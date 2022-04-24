@@ -12,9 +12,10 @@ class MapGeneric {
 
 
 
-public:MapGeneric();
+public:
+MapGeneric();
 
-    virtual ~MapGeneric();
+    
 
     std::vector<int> map(std::vector<int> input);
 

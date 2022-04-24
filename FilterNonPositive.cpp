@@ -5,7 +5,7 @@
 #include "FilterNonPositive.h"
 FilterNonPositive::FilterNonPositive() = default;
 
-FilterNonPositive::~FilterNonPositive() = default;
+
 
 
 bool FilterNonPositive::g(int x) {

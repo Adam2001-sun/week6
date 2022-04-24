@@ -4,7 +4,7 @@
 
 #include "ReduceGeneric.h"
     ReduceGeneric::ReduceGeneric() =  default;
-ReduceGeneric::~ReduceGeneric() =  default;
+
 
 
 int ReduceGeneric::reduce(std::vector<int> input){

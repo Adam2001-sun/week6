@@ -10,7 +10,7 @@ class MapAbsoluteValue : public MapGeneric {
 public:
 
     MapAbsoluteValue();
-   virtual  ~MapAbsoluteValue();
+  
 
 protected:
     int f(int x) override;

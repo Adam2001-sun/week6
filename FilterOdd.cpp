@@ -6,7 +6,7 @@
 
 FilterOdd::FilterOdd() = default;
 
-FilterOdd::~FilterOdd() = default;
+
 
 bool FilterOdd::g(int x) {
     return (x%2 == 1);

@@ -11,7 +11,7 @@
 class FilterForTwoDigitPositive : public FilterGeneric {
 public:
     FilterForTwoDigitPositive();
-    virtual ~FilterForTwoDigitPositive();
+
 
 protected:
     bool g(int x) override;

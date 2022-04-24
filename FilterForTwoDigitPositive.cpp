@@ -8,7 +8,7 @@
 
 FilterForTwoDigitPositive::FilterForTwoDigitPositive() = default;
 
-FilterForTwoDigitPositive::~FilterForTwoDigitPositive() = default;
+
 
 bool FilterForTwoDigitPositive::g(int x) {
 

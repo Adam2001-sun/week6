@@ -3,7 +3,7 @@
 //
 #include "MapAbsoluteValue.h"
 MapAbsoluteValue::MapAbsoluteValue() = default;
-MapAbsoluteValue::~MapAbsoluteValue() = default;
+
 
 int MapAbsoluteValue::f(int x){
     return (int)abs(x);

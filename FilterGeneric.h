@@ -10,7 +10,7 @@
 class FilterGeneric {
 public:
     FilterGeneric();
-    virtual ~FilterGeneric();
+   
     std::vector <int>filter(std::vector<int>);
 
 

@@ -12,7 +12,7 @@
 class ReduceGeneric {
 public:
     ReduceGeneric();
-    virtual ~ReduceGeneric();
+   
 
     virtual int binaryOperator(int x, int y) = 0;
     int reduce(std::vector<int> input);

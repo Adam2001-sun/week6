@@ -9,7 +9,7 @@
 class ReduceGCD : public ReduceGeneric{
 public:
     ReduceGCD();
-    virtual ~ReduceGCD();
+ 
 
 protected:
     int binaryOperator(int x, int y) override;

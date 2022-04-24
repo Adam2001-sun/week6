@@ -21,4 +21,4 @@ std::vector<int> MapGeneric::map(std::vector<int> result, std::vector<int>input,
     return map(result,input,index+1);
 
 }
-MapGeneric::~MapGeneric() = default;
+

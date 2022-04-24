@@ -11,7 +11,7 @@ class FilterNonPositive: public FilterGeneric{
 public:
     FilterNonPositive();
 
-    virtual ~FilterNonPositive();
+    
 
 protected:
     bool g(int x) override;

@@ -9,7 +9,7 @@ class MapTriple : public MapGeneric {
 public:
     MapTriple();
 
-    virtual ~MapTriple();
+   
 
 protected:
     int f(int x) override;

@@ -11,7 +11,7 @@ class MapSquare : public MapGeneric {
 
 public:
     MapSquare();
-    virtual ~MapSquare();
+   
 
 protected:
     int f(int x) override;

@@ -5,7 +5,7 @@
 #include "FilterGeneric.h"
 
 FilterGeneric::FilterGeneric() = default;
-FilterGeneric::~FilterGeneric() = default;
+
 
 std::vector<int> FilterGeneric::filter(std::vector<int> input) {
     return filter(std::vector<int>(),input,0);

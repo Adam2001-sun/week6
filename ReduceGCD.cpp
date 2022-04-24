@@ -4,7 +4,7 @@
 
 #include "ReduceGCD.h"
 ReduceGCD:: ReduceGCD() = default;
-ReduceGCD:: ~ReduceGCD() = default;
+
 
 int ReduceGCD::binaryOperator(int x, int y) {
     if (y==0) return x;

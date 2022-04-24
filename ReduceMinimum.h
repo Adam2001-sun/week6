@@ -11,7 +11,7 @@
 class ReduceMinimum : public ReduceGeneric {
 public:
     ReduceMinimum();
-    virtual ~ReduceMinimum();
+
 
 protected:
 int binaryOperator(int x, int y) override;
