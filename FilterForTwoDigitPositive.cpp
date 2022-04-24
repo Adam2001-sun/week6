@@ -1,5 +1,5 @@
 //
-// Created by Sun Haoxian on 25/4/22.
+// Created by Sun Haoxian on 22/4/22.
 //
 
 #include "FilterForTwoDigitPositive.h"
@@ -10,7 +10,7 @@ FilterForTwoDigitPositive::FilterForTwoDigitPositive() = default;
 
 
 
-bool FilterForTwoDigitPositive::g(int x) {
+bool FilterForTwoDigitPositive::g(int a) {
 
-    return (x > 0 && std::to_string(x).size() ==2);
+    return (a > 0 && std::to_string(a).size() ==2);
 }

@@ -1,5 +1,5 @@
 //
-// Created by Sun Haoxian on 24/4/22.
+// Created by Sun Haoxian on 22/4/22.
 //
 
 #ifndef CMAKE_CLION_CONAN_TEMPLATE_MAPGENERIC_H
@@ -18,7 +18,7 @@ MapGeneric();
 private:
     std::vector<int> map(std::vector<int> result, std::vector<int> magicNumber, int array_index);
 
-    virtual int f(int x) = 0;
+    virtual int f(int a) = 0;
 
 };
 

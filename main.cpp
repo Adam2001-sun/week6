@@ -1,10 +1,7 @@
 //
-// Created by Sun Haoxian on 24/4/22.
+// Created by Sun Haoxian on 22/4/22.
 //
 
-//
-// Created by Sun Haoxian on 4/4/22.
-//
 
 #include<iostream>
 #include "MapTriple.h"
@@ -64,16 +61,16 @@ vector<int> result1 = triple-> map (vector<int>{1,2,3,4});
     }
     cout<<endl;
 
-    vector<int> result6 = FTDP -> filter(vector<int>{11,-1,23,4354,1,22,4,-22});
+    vector<int> result6 = FTDP -> filter(vector<int>{11,-1,23,4354,1,22,4,-22,00});
     for(int i = 0; i < result6.size();i++) {
         cout << result6[i] << " ";
     }
     cout<<endl;
 
-   int result7 = Min -> reduce(vector<int>{1,2,3,4,5,6,-3});
+   int result7 = Min -> reduce(vector<int>{1,2,3,4,5,6,-3,-99999999});
     cout << result7 << endl;
 
-    int result8 = GCD -> reduce(vector<int>{30,105,45,60});
+    int result8 = GCD -> reduce(vector<int>{8,10,10,600,60000,66666666});
     cout << result8 << endl;
 
 }

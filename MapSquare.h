@@ -1,5 +1,5 @@
 //
-// Created by Sun Haoxian on 24/4/22.
+// Created by Sun Haoxian on 22/4/22.
 //
 
 #ifndef CMAKE_CLION_CONAN_TEMPLATE_MAPSQUARE_H
@@ -14,7 +14,7 @@ public:
     MapSquare();
    
 protected:
-    int f(int x) override;
+    int f(int a) override;
 };
 
 

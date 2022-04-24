@@ -1,5 +1,5 @@
 //
-// Created by Sun Haoxian on 25/4/22.
+// Created by Sun Haoxian on 22/4/22.
 //
 
 #ifndef CMAKE_CLION_CONAN_TEMPLATE_FILTERGENERIC_H
@@ -18,7 +18,7 @@ public:
 
 private:
 
-virtual bool g(int x) = 0;
+virtual bool g(int a) = 0;
 std::vector<int> filter(std::vector<int>result,std::vector<int>, int index);
 };
 

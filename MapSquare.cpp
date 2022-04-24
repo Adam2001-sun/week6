@@ -1,5 +1,5 @@
 //
-// Created by Sun Haoxian on 24/4/22.
+// Created by Sun Haoxian on 22/4/22.
 //
 
 #include "MapSquare.h"
@@ -7,7 +7,7 @@
 MapSquare::MapSquare()=default;
 
 
-int MapSquare::f(int x) {
-    return (int)pow(x,2);
+int MapSquare::f(int a) {
+    return (int)pow(a,2);
 }
 

@@ -1,12 +1,12 @@
 //
-// Created by Sun Haoxian on 24/4/22.
+// Created by Sun Haoxian on 22/4/22.
 //
 #include "MapAbsoluteValue.h"
 MapAbsoluteValue::MapAbsoluteValue() = default;
 
 
-int MapAbsoluteValue::f(int x){
-    return (int)abs(x);
+int MapAbsoluteValue::f(int a){
+    return (int)abs(a);
 }
 
 

@@ -1,5 +1,5 @@
 //
-// Created by Sun Haoxian on 25/4/22.
+// Created by Sun Haoxian on 22/4/22.
 //
 
 #ifndef CMAKE_CLION_CONAN_TEMPLATE_FILTERODD_H
@@ -13,8 +13,7 @@ public:
     
 
 protected:
-
-    bool g(int x) override;
+    bool g(int a) override;
 };
 
 
