@@ -70,7 +70,7 @@ vector<int> result1 = triple-> map (vector<int>{1,2,3,4});
     }
     cout<<endl;
 
-   int result7 = Min -> reduce(vector<int>{1,2,3,4});
+   int result7 = Min -> reduce(vector<int>{1,2,3,4,5,6,-3});
     cout << result7 << endl;
 
     int result8 = GCD -> reduce(vector<int>{30,105,45,60});

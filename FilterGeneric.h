@@ -7,6 +7,8 @@
 
 #include<cmath>
 #include<vector>
+
+
 class FilterGeneric {
 public:
     FilterGeneric();
@@ -14,9 +16,10 @@ public:
     std::vector <int>filter(std::vector<int>);
 
 
+private:
+
 virtual bool g(int x) = 0;
-protected:
-    std::vector<int> filter(std::vector<int>result,std::vector<int>, int index);
+std::vector<int> filter(std::vector<int>result,std::vector<int>, int index);
 };
 
 

@@ -11,7 +11,6 @@ return map(std::vector<int>(),input,0);
 }
 
 
-
 std::vector<int> MapGeneric::map(std::vector<int> result, std::vector<int>input, int index){
     if(index == (int)input.size()){
         return result;

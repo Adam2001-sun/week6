@@ -15,16 +15,11 @@ class MapGeneric {
 public:
 MapGeneric();
 
-    
-
     std::vector<int> map(std::vector<int> input);
 
-
 private:
-
     std::vector<int> map(std::vector<int> result, std::vector<int> input, int index);
 
-protected:
     virtual int f(int x) = 0;
 
 };

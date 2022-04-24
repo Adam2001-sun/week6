@@ -4,6 +4,7 @@
 
 #ifndef CMAKE_CLION_CONAN_TEMPLATE_MAPSQUARE_H
 #define CMAKE_CLION_CONAN_TEMPLATE_MAPSQUARE_H
+
 #include <cmath>
 #include"MapGeneric.h"
 

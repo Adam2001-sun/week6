@@ -7,6 +7,7 @@
 
 #include<vector>
 #include<string>
+#include<cmath>
 
 
 class ReduceGeneric {
@@ -14,11 +15,11 @@ public:
     ReduceGeneric();
    
 
-    virtual int binaryOperator(int x, int y) = 0;
     int reduce(std::vector<int> input);
 
 private:
      int reduce(int result, std::vector<int> input, int index);
+      virtual int binaryOperator(int x, int y) = 0;
 };
 
 
