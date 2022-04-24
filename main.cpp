@@ -18,17 +18,8 @@
 
 
 
-MapGeneric *triple = new MapTriple();
-MapGeneric *square = new MapSquare();
-MapGeneric *absolute = new MapAbsoluteValue();
-FilterGeneric *odd = new FilterOdd();
-FilterGeneric *NP = new FilterNonPositive();
-FilterGeneric *FTDP = new FilterForTwoDigitPositive();
-ReduceGeneric *Min = new ReduceMinimum;
-ReduceGeneric *GCD = new ReduceGCD;
 
 
-using namespace std;
 int main(){
 
 }
