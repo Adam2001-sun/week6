@@ -6,6 +6,7 @@
 #define CMAKE_CLION_CONAN_TEMPLATE_MAPABSOLUTEVALUE_H
 
 #include "MapGeneric.h"
+#include <cmath> 
 class MapAbsoluteValue : public MapGeneric {
 public:
 
